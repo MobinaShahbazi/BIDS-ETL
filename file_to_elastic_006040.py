@@ -9,7 +9,7 @@ layout = BIDSLayout(r"E:\term8\5. Bachelor Project\search\BIDS\datasets\ds006040
 
 # Prepare bulk data
 actions = []
-index_name = "file_v1"
+index_name = "file_6040"
 
 files = layout.get()
 print(len(files))
@@ -25,6 +25,8 @@ for _, row in df.iterrows():
         doc['filesize'] = file_size
     except OSError:
         doc['filesize'] = None 
+    
+    print(doc)
 
     action = {
         "_index": index_name,

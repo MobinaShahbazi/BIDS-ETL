@@ -4,16 +4,16 @@ from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk
 
 # Load layout
-layout = BIDSLayout(r"E:\term8\5. Bachelor Project\search\BIDS\datasets\ds006040", validate=False)
+layout = BIDSLayout(r"E:\term8\5. Bachelor Project\search\BIDS\datasets\ds006040-test", validate=False)
 
 # Load participants.tsv
-participants_df = pd.read_csv(r"E:\term8\5. Bachelor Project\search\BIDS\datasets\ds006040\Demographic_Information.tsv", sep='\t')
+participants_df = pd.read_csv(r"E:\term8\5. Bachelor Project\search\BIDS\datasets\ds006040-test\Demographic_Information.tsv", sep='\t')
 participants_df['Anonymized ID'] = participants_df['Anonymized ID'].str.replace('sub-', '')
 participants_df['Gender'] = participants_df['Gender'].replace({'1': 'man', '0': 'woman'})
 
 # Prepare bulk data
 actions = []
-index_name = "subject_v2"
+index_name = "subject_6040"
 
 subjects = sorted(layout.get_subjects() + ['003'])
 print(subjects)
@@ -42,6 +42,8 @@ for subj in subjects:
         "_source": doc
     }
     actions.append(action)
+    print(doc)
+
 
 
 # Elasticsearch connection with authentication

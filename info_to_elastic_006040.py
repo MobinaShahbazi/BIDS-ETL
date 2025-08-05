@@ -1,15 +1,82 @@
 import os
+import json
 import pandas as pd
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk
 
-beh_dir = r"E:\term8\5. Bachelor Project\search\BIDS\datasets\ds006040-test"
+base_dir = r"E:\term8\5. Bachelor Project\search\BIDS\datasets\ds006040-test"
+modalities = ["anat", "func", "dwi"]
 
-index_name = "info_6040"
+es = Elasticsearch(
+    hosts=[{
+        'host': 'localhost',
+        'port': 9200,
+        'scheme': 'http'
+    }],
+    basic_auth=('elastic', 'changeme') 
+)
+
+index_name = "info_anat_func_dwi_6040"
+index_name2 = "info_beh_6040"
 
 actions = []
+actions2 = []
 
-for root, dirs, files in os.walk(beh_dir):
+dashboard_fields = [
+    "MagneticFieldStrength",
+    "Manufacturer",
+    "ManufacturersModelName",
+    "BodyPartExamined",
+    "SliceThickness",
+    "SpacingBetweenSlices",
+    "SAR",
+    "EchoTime",
+    "RepetitionTime",
+    "FlipAngle",
+    "TaskName",
+    "ImageType",
+    "SoftwareVersions",
+    "Dcm2bidsVersion"
+]
+
+for subj_folder in os.listdir(base_dir):
+    if subj_folder.startswith("sub-"):
+        subject = subj_folder.replace("sub-", "")
+        subj_path = os.path.join(base_dir, subj_folder)
+
+        for modality in modalities:
+            modality_path = os.path.join(subj_path, modality)
+
+            if not os.path.isdir(modality_path):
+                continue
+
+            for file in os.listdir(modality_path):
+                if file.endswith(".json"):
+                    file_path = os.path.join(modality_path, file)
+
+                    try:
+                        with open(file_path, 'r', encoding='utf-8') as f:
+                            data = json.load(f)
+
+                        filtered_data = {key: data.get(key, None) for key in dashboard_fields}
+
+                        doc = {
+                            "subject": subject,
+                            "modality": modality,
+                            **filtered_data
+                        }
+                        # print(doc)
+
+                        actions.append({
+                            "_index": index_name,
+                            "_source": doc
+                        })
+
+                    except Exception as e:
+                        print(f"error reading {file_path}: {e}")
+
+
+for root, dirs, files in os.walk(base_dir):
     for file in files:
         if file.endswith("_beh.tsv"):
 
@@ -30,42 +97,47 @@ for root, dirs, files in os.walk(beh_dir):
                 doc["task"] = task
                 doc["run"] = run
                 
-                print(doc['PressedC'])
+                # print(doc['PressedC'])
 
-                actions.append({
-                    "_index": index_name,
+                actions2.append({
+                    "_index": index_name2,
                     "_source": doc
                 })
 
 
-# //////////////////////////////////////////////////////////////////////
+# Check connection
+if not es.ping():
+    print("Elasticsearch connection failed.")
+    exit()
+else:
+    print("Elasticsearch connected successfully.")
+    
+# 1 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-# # Elasticsearch connection with authentication
-# es = Elasticsearch(
-#     hosts=[{
-#         'host': 'localhost',
-#         'port': 9200,
-#         'scheme': 'http'
-#     }],
-#     basic_auth=('elastic', 'changeme')  # user: elastic, pass: changeme
-# )
+# Optional: Delete index if exists (for clean run)
+if es.indices.exists(index=index_name):
+    es.indices.delete(index=index_name)
+    print(f"index {index_name} removed.")
 
-# # Check connection
-# if not es.ping():
-#     print("Elasticsearch connection failed.")
-#     exit()
-# else:
-#     print("Elasticsearch connected successfully.")
+# Create index (optional settings/mappings can be added)
+es.indices.create(index=index_name)
+print(f"index {index_name} created.")
 
-# # Optional: Delete index if exists (for clean run)
-# if es.indices.exists(index=index_name):
-#     es.indices.delete(index=index_name)
-#     print(f"index {index_name} removed.")
+# Bulk insert into Elasticsearch
+bulk(es, actions)
+print(f"all ({len(actions)}) data added to index {index_name}.")
 
-# # Create index (optional settings/mappings can be added)
-# es.indices.create(index=index_name)
-# print(f"index {index_name} created.")
+# 2 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-# # Bulk insert into Elasticsearch
-# bulk(es, actions)
-# print(f"all ({len(actions)}) data added to index {index_name}.")
+# Optional: Delete index if exists (for clean run)
+if es.indices.exists(index=index_name2):
+    es.indices.delete(index=index_name2)
+    print(f"index {index_name2} removed.")
+
+# Create index (optional settings/mappings can be added)
+es.indices.create(index=index_name2)
+print(f"index {index_name2} created.")
+
+# Bulk insert into Elasticsearch
+bulk(es, actions2)
+print(f"all ({len(actions2)}) data added to index {index_name2}.")
