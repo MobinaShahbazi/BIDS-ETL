@@ -1,0 +1,21 @@
+[2025-07-28T06:06:11.629+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bids_subjects.upload_bids_data_to_es manual__2025-07-28T06:06:10.072835+00:00 [queued]>
+[2025-07-28T06:06:11.637+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bids_subjects.upload_bids_data_to_es manual__2025-07-28T06:06:10.072835+00:00 [queued]>
+[2025-07-28T06:06:11.638+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-28T06:06:11.650+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): upload_bids_data_to_es> on 2025-07-28 06:06:10.072835+00:00
+[2025-07-28T06:06:11.656+0000] {standard_task_runner.py:60} INFO - Started process 63 to run task
+[2025-07-28T06:06:11.658+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'bids_subjects', 'upload_bids_data_to_es', 'manual__2025-07-28T06:06:10.072835+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/subject_4060_dag.py', '--cfg-path', '/tmp/tmpzrl356uo']
+[2025-07-28T06:06:11.661+0000] {standard_task_runner.py:88} INFO - Job 12: Subtask upload_bids_data_to_es
+[2025-07-28T06:06:11.673+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2025-07-28T06:06:11.705+0000] {task_command.py:423} INFO - Running <TaskInstance: bids_subjects.upload_bids_data_to_es manual__2025-07-28T06:06:10.072835+00:00 [running]> on host 6b8fcca183c1
+[2025-07-28T06:06:11.771+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='bids_subjects' AIRFLOW_CTX_TASK_ID='upload_bids_data_to_es' AIRFLOW_CTX_EXECUTION_DATE='2025-07-28T06:06:10.072835+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-28T06:06:10.072835+00:00'
+[2025-07-28T06:06:23.707+0000] {_transport.py:335} INFO - HEAD http://elasticsearch:9200/ [status:200 duration:0.003s]
+[2025-07-28T06:06:23.710+0000] {_transport.py:335} INFO - HEAD http://elasticsearch:9200/subject_6040 [status:200 duration:0.002s]
+[2025-07-28T06:06:23.756+0000] {_transport.py:335} INFO - DELETE http://elasticsearch:9200/subject_6040 [status:200 duration:0.045s]
+[2025-07-28T06:06:23.873+0000] {_transport.py:335} INFO - PUT http://elasticsearch:9200/subject_6040 [status:200 duration:0.115s]
+[2025-07-28T06:06:23.929+0000] {_transport.py:335} INFO - PUT http://elasticsearch:9200/_bulk [status:200 duration:0.054s]
+[2025-07-28T06:06:23.931+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-28T06:06:23.941+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=bids_subjects, task_id=upload_bids_data_to_es, execution_date=20250728T060610, start_date=20250728T060611, end_date=20250728T060623
+[2025-07-28T06:06:24.000+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-28T06:06:24.012+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

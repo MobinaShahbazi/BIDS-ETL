@@ -1,0 +1,172 @@
+[2025-07-27T19:07:28.641+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:07:28.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:07:28.645+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:07:28.644+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:07:31.333+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:07:31.627+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:07:31.626+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:index_bids_subjects
+[2025-07-27T19:07:31.647+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:07:31.646+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:index_bids_subjects
+[2025-07-27T19:07:31.658+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:07:31.658+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:index_bids_subjects
+[2025-07-27T19:07:31.659+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:07:31.659+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:07:31.671+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:07:31.670+0000] {dag.py:3058} INFO - Creating ORM DAG for index_bids_subjects
+[2025-07-27T19:07:31.684+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:07:31.684+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-26 00:00:00+00:00, run_after=2025-07-27 00:00:00+00:00
+[2025-07-27T19:07:31.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 3.081 seconds
+[2025-07-27T19:08:02.065+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:08:02.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:08:02.071+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:08:02.070+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:08:02.731+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:08:02.749+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:08:02.748+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:08:02.767+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:08:02.767+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-26 00:00:00+00:00, run_after=2025-07-27 00:00:00+00:00
+[2025-07-27T19:08:02.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.725 seconds
+[2025-07-27T19:08:33.135+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:08:33.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:08:33.139+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:08:33.139+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:08:33.782+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:08:33.799+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:08:33.799+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:08:33.814+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:08:33.814+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-26 00:00:00+00:00, run_after=2025-07-27 00:00:00+00:00
+[2025-07-27T19:08:33.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.702 seconds
+[2025-07-27T19:09:04.189+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:09:04.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:09:04.191+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:09:04.191+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:09:04.653+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:09:04.672+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:09:04.672+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:09:04.688+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:09:04.688+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-26 00:00:00+00:00, run_after=2025-07-27 00:00:00+00:00
+[2025-07-27T19:09:04.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.525 seconds
+[2025-07-27T19:09:34.957+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:09:34.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:09:34.960+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:09:34.960+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:09:36.014+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:09:36.033+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:09:36.033+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:09:36.240+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:09:36.240+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-26 00:00:00+00:00, run_after=2025-07-27 00:00:00+00:00
+[2025-07-27T19:09:36.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 1.306 seconds
+[2025-07-27T19:10:06.374+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:10:06.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:10:06.377+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:10:06.377+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:10:06.797+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:10:06.814+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:10:06.814+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:10:06.829+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:10:06.829+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-26 00:00:00+00:00, run_after=2025-07-27 00:00:00+00:00
+[2025-07-27T19:10:06.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.475 seconds
+[2025-07-27T19:10:36.917+0000] {processor.py:161} INFO - Started process (PID=45) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:10:36.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:10:36.920+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:10:36.920+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:10:37.441+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:10:37.464+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:10:37.463+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:10:37.482+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:10:37.482+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-26 00:00:00+00:00, run_after=2025-07-27 00:00:00+00:00
+[2025-07-27T19:10:37.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.587 seconds
+[2025-07-27T19:11:07.813+0000] {processor.py:161} INFO - Started process (PID=51) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:11:07.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:11:07.819+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:11:07.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:11:08.329+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:11:08.346+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:11:08.346+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:11:08.364+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:11:08.364+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:11:08.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.574 seconds
+[2025-07-27T19:11:38.700+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:11:38.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:11:38.703+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:11:38.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:11:39.215+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:11:39.239+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:11:39.238+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:11:39.259+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:11:39.259+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:11:39.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.583 seconds
+[2025-07-27T19:12:09.475+0000] {processor.py:161} INFO - Started process (PID=55) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:12:09.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:12:09.478+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:12:09.478+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:12:09.892+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:12:09.910+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:12:09.909+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:12:09.925+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:12:09.925+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:12:09.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.469 seconds
+[2025-07-27T19:12:40.297+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:12:40.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:12:40.300+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:12:40.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:12:40.734+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:12:40.754+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:12:40.753+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:12:40.771+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:12:40.770+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:12:40.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.493 seconds
+[2025-07-27T19:13:11.186+0000] {processor.py:161} INFO - Started process (PID=63) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:13:11.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:13:11.189+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:13:11.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:13:11.643+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:13:11.664+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:13:11.664+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:13:11.681+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:13:11.681+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:13:11.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.518 seconds
+[2025-07-27T19:13:42.088+0000] {processor.py:161} INFO - Started process (PID=67) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:13:42.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:13:42.090+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:13:42.090+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:13:42.528+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:13:42.543+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:13:42.543+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:13:42.559+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:13:42.559+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:13:42.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.492 seconds
+[2025-07-27T19:14:12.984+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:14:12.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:14:12.987+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:14:12.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:14:13.402+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:14:13.420+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:14:13.419+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:14:13.436+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:14:13.436+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:14:13.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.472 seconds
+[2025-07-27T19:14:43.797+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:14:43.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:14:43.800+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:14:43.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:14:44.270+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:14:44.289+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:14:44.289+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:14:44.311+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:14:44.311+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:14:44.329+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.534 seconds
+[2025-07-27T19:15:15.167+0000] {processor.py:161} INFO - Started process (PID=79) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:15:15.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:15:15.169+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:15:15.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:15:15.593+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:15:15.610+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:15:15.609+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:15:15.625+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:15:15.625+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:15:15.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.479 seconds
+[2025-07-27T19:15:46.012+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:15:46.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:15:46.015+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:15:46.015+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:15:46.451+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:15:46.471+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:15:46.471+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:15:46.494+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:15:46.493+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:15:46.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.502 seconds
+[2025-07-27T19:16:16.877+0000] {processor.py:161} INFO - Started process (PID=87) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:16:16.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:16:16.879+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:16:16.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:16:17.383+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:16:17.400+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:16:17.400+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:16:17.419+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:16:17.418+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:16:17.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.563 seconds
+[2025-07-27T19:16:47.870+0000] {processor.py:161} INFO - Started process (PID=91) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:16:47.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:16:47.872+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:16:47.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:16:48.382+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:16:48.401+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:16:48.400+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:16:48.418+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:16:48.418+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:16:48.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.574 seconds
+[2025-07-27T19:17:18.834+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:17:18.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:17:18.836+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:17:18.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:17:19.268+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:17:19.287+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:17:19.287+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:17:19.303+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:17:19.303+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:17:19.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.490 seconds
+[2025-07-27T19:17:49.769+0000] {processor.py:161} INFO - Started process (PID=99) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:17:49.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:17:49.771+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:17:49.771+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:17:50.184+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:17:50.204+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:17:50.204+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:17:50.219+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:17:50.219+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:17:50.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.470 seconds
+[2025-07-27T19:18:20.651+0000] {processor.py:161} INFO - Started process (PID=103) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:18:20.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:18:20.654+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:18:20.654+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:18:21.126+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:18:21.147+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:18:21.146+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:18:21.162+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:18:21.162+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:18:21.181+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.533 seconds
+[2025-07-27T19:18:51.559+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:18:51.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:18:51.562+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:18:51.562+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:18:51.955+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:18:51.971+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:18:51.971+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:18:51.987+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:18:51.987+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:18:52.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.447 seconds
+[2025-07-27T19:19:22.442+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:19:22.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/subject_index_dag.py for tasks to queue
+[2025-07-27T19:19:22.445+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:19:22.444+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:19:23.030+0000] {processor.py:840} INFO - DAG(s) 'index_bids_subjects' retrieved from /opt/airflow/dags/subject_index_dag.py
+[2025-07-27T19:19:23.049+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:19:23.048+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T19:19:23.065+0000] {logging_mixin.py:188} INFO - [2025-07-27T19:19:23.065+0000] {dag.py:3823} INFO - Setting next_dagrun for index_bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T19:19:23.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/subject_index_dag.py took 0.643 seconds

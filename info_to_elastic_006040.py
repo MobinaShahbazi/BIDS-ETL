@@ -96,8 +96,6 @@ for root, dirs, files in os.walk(base_dir):
                 doc["subject"] = subject
                 doc["task"] = task
                 doc["run"] = run
-                
-                # print(doc['PressedC'])
 
                 actions2.append({
                     "_index": index_name2,
@@ -112,29 +110,28 @@ if not es.ping():
 else:
     print("Elasticsearch connected successfully.")
     
-# 1 //////////////////////////////////////////////////////////////////////////////////////////////////////
+# 1 ///////////////////////////////////////////////
 
-# Optional: Delete index if exists (for clean run)
+# Delete index if exists 
 if es.indices.exists(index=index_name):
     es.indices.delete(index=index_name)
     print(f"index {index_name} removed.")
 
-# Create index (optional settings/mappings can be added)
-es.indices.create(index=index_name)
+# Create index 
 print(f"index {index_name} created.")
 
 # Bulk insert into Elasticsearch
 bulk(es, actions)
 print(f"all ({len(actions)}) data added to index {index_name}.")
 
-# 2 //////////////////////////////////////////////////////////////////////////////////////////////////////
+# 2 ///////////////////////////////////////////////
 
-# Optional: Delete index if exists (for clean run)
+# Delete index if exists 
 if es.indices.exists(index=index_name2):
     es.indices.delete(index=index_name2)
     print(f"index {index_name2} removed.")
 
-# Create index (optional settings/mappings can be added)
+# Create index 
 es.indices.create(index=index_name2)
 print(f"index {index_name2} created.")
 

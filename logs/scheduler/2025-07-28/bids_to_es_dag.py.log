@@ -1,0 +1,219 @@
+[2025-07-28T05:49:09.390+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:49:09.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:49:09.407+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:49:09.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:49:10.711+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:49:10.745+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:49:10.744+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:49:10.785+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:49:10.784+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:49:10.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 1.482 seconds
+[2025-07-28T05:49:41.210+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:49:41.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:49:41.216+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:49:41.216+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:49:42.002+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:49:42.135+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:49:42.134+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:49:42.150+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:49:42.150+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:49:42.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.969 seconds
+[2025-07-28T05:50:12.773+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:50:12.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:50:12.777+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:50:12.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:50:13.792+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:50:13.838+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:50:13.838+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:50:13.866+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:50:13.865+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:50:13.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 1.133 seconds
+[2025-07-28T05:50:44.357+0000] {processor.py:161} INFO - Started process (PID=45) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:50:44.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:50:44.361+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:50:44.360+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:50:44.958+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:50:44.986+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:50:44.985+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:50:44.998+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:50:44.998+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:50:45.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.669 seconds
+[2025-07-28T05:51:15.386+0000] {processor.py:161} INFO - Started process (PID=49) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:15.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:51:15.388+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:15.388+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:15.904+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:15.924+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:15.923+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:51:15.934+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:15.934+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:51:15.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.570 seconds
+[2025-07-28T05:51:46.254+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:46.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:51:46.257+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:46.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:46.747+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:46.768+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:46.767+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:51:46.778+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:46.777+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:51:46.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.550 seconds
+[2025-07-28T05:51:49.898+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:49.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:51:49.902+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:49.901+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:50.410+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:50.431+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:50.430+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:51:50.439+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:50.439+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:51:50.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.573 seconds
+[2025-07-28T05:51:56.980+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:56.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:51:56.983+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:56.983+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:57.506+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:57.525+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:57.525+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:51:57.539+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:57.538+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:51:57.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.586 seconds
+[2025-07-28T05:51:58.582+0000] {processor.py:161} INFO - Started process (PID=61) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:58.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:51:58.585+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:58.585+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:59.143+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:51:59.173+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:59.172+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:51:59.184+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:51:59.183+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:51:59.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.632 seconds
+[2025-07-28T05:52:19.770+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:52:19.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:52:19.772+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:52:19.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:52:20.229+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:52:20.250+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:52:20.249+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:52:20.259+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:52:20.258+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:52:20.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.512 seconds
+[2025-07-28T05:52:50.535+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:52:50.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:52:50.537+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:52:50.537+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:52:51.015+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:52:51.035+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:52:51.035+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:52:51.043+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:52:51.042+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:52:51.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.533 seconds
+[2025-07-28T05:53:21.358+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:53:21.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:53:21.360+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:53:21.360+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:53:21.814+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:53:21.838+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:53:21.838+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:53:21.848+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:53:21.848+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:53:21.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.516 seconds
+[2025-07-28T05:53:52.175+0000] {processor.py:161} INFO - Started process (PID=77) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:53:52.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:53:52.179+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:53:52.179+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:53:52.637+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:53:52.655+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:53:52.655+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:53:52.665+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:53:52.665+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:53:52.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.513 seconds
+[2025-07-28T05:54:09.775+0000] {processor.py:161} INFO - Started process (PID=79) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:09.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:54:09.779+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:09.779+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:10.306+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:10.331+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:10.330+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:54:10.343+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:10.343+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:54:10.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.588 seconds
+[2025-07-28T05:54:11.419+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:11.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:54:11.422+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:11.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:11.855+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:11.874+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:11.874+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:54:11.884+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:11.884+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:54:11.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.493 seconds
+[2025-07-28T05:54:12.891+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:12.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:54:12.893+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:12.893+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:13.349+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:13.367+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:13.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:54:13.376+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:13.376+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:54:13.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.515 seconds
+[2025-07-28T05:54:18.003+0000] {processor.py:161} INFO - Started process (PID=85) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:18.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:54:18.005+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:18.005+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:18.501+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:18.520+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:18.520+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:54:18.529+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:18.528+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:54:18.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.554 seconds
+[2025-07-28T05:54:48.845+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:48.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:54:48.849+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:48.849+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:49.320+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:54:49.343+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:49.342+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:54:49.353+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:54:49.352+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:54:49.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.531 seconds
+[2025-07-28T05:55:00.970+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:55:00.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:55:00.974+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:55:00.973+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:55:01.483+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:55:01.503+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:55:01.503+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:55:01.510+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:55:01.510+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:55:01.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.569 seconds
+[2025-07-28T05:55:03.603+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:55:03.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:55:03.606+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:55:03.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:55:04.051+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:55:04.073+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:55:04.072+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:55:04.083+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:55:04.083+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:55:04.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.506 seconds
+[2025-07-28T05:55:05.081+0000] {processor.py:161} INFO - Started process (PID=97) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:55:05.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:55:05.084+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:55:05.084+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:55:05.515+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:55:05.534+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:55:05.534+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:55:05.543+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:55:05.543+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:55:05.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.491 seconds
+[2025-07-28T05:55:35.856+0000] {processor.py:161} INFO - Started process (PID=101) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:55:35.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:55:35.858+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:55:35.858+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:55:36.409+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:55:36.431+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:55:36.431+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:55:36.440+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:55:36.440+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:55:36.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.606 seconds
+[2025-07-28T05:56:06.752+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:56:06.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:56:06.754+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:56:06.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:56:07.210+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:56:07.230+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:56:07.229+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:56:07.238+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:56:07.238+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:56:07.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.507 seconds
+[2025-07-28T05:56:37.521+0000] {processor.py:161} INFO - Started process (PID=109) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:56:37.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:56:37.525+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:56:37.524+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:56:37.978+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:56:37.996+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:56:37.995+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:56:38.004+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:56:38.004+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:56:38.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.508 seconds
+[2025-07-28T05:56:44.116+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:56:44.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:56:44.119+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:56:44.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:56:44.572+0000] {processor.py:840} INFO - DAG(s) 'bids_to_elasticsearch_dag' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:56:44.594+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:56:44.593+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:56:44.602+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:56:44.601+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_to_elasticsearch_dag to None, run_after=None
+[2025-07-28T05:56:44.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.515 seconds
+[2025-07-28T05:57:10.882+0000] {processor.py:161} INFO - Started process (PID=115) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:57:10.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:57:10.885+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:57:10.885+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:57:11.344+0000] {processor.py:840} INFO - DAG(s) 'bids_subjects' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:57:11.420+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:57:11.420+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:bids_subjects
+[2025-07-28T05:57:11.429+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:57:11.428+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:bids_subjects
+[2025-07-28T05:57:11.436+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:57:11.435+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:bids_subjects
+[2025-07-28T05:57:11.437+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:57:11.436+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:57:11.444+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:57:11.444+0000] {dag.py:3058} INFO - Creating ORM DAG for bids_subjects
+[2025-07-28T05:57:11.445+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:57:11.445+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_subjects to None, run_after=None
+[2025-07-28T05:57:11.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.588 seconds
+[2025-07-28T05:57:41.721+0000] {processor.py:161} INFO - Started process (PID=119) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:57:41.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:57:41.723+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:57:41.723+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:57:42.142+0000] {processor.py:840} INFO - DAG(s) 'bids_subjects' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:57:42.162+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:57:42.162+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:57:42.171+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:57:42.171+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_subjects to None, run_after=None
+[2025-07-28T05:57:42.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.471 seconds
+[2025-07-28T05:58:12.465+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:58:12.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:58:12.467+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:58:12.467+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:58:12.941+0000] {processor.py:840} INFO - DAG(s) 'bids_subjects' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:58:13.018+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:58:13.018+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:58:13.035+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:58:13.035+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-28T05:58:13.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.599 seconds
+[2025-07-28T05:58:43.311+0000] {processor.py:161} INFO - Started process (PID=127) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:58:43.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:58:43.314+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:58:43.314+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:58:43.748+0000] {processor.py:840} INFO - DAG(s) 'bids_subjects' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:58:43.767+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:58:43.767+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:58:43.788+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:58:43.788+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-28T05:58:43.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.499 seconds
+[2025-07-28T05:59:14.118+0000] {processor.py:161} INFO - Started process (PID=131) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:59:14.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:59:14.120+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:59:14.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:59:14.509+0000] {processor.py:840} INFO - DAG(s) 'bids_subjects' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:59:14.527+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:59:14.526+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-28T05:59:14.541+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:59:14.541+0000] {dag.py:3823} INFO - Setting next_dagrun for bids_subjects to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-28T05:59:14.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bids_to_es_dag.py took 0.442 seconds
+[2025-07-28T05:59:44.856+0000] {processor.py:161} INFO - Started process (PID=135) to work on /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:59:44.856+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bids_to_es_dag.py for tasks to queue
+[2025-07-28T05:59:44.857+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:59:44.857+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:59:45.297+0000] {processor.py:840} INFO - DAG(s) 'bids_subjects' retrieved from /opt/airflow/dags/bids_to_es_dag.py
+[2025-07-28T05:59:45.315+0000] {logging_mixin.py:188} INFO - [2025-07-28T05:59:45.315+0000] {dag.py:3036} INFO - Sync 1 DAGs

@@ -1,0 +1,22 @@
+[2025-07-27T19:16:08.018+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: index_bids_subjects.index_subjects manual__2025-07-27T19:16:06.854282+00:00 [queued]>
+[2025-07-27T19:16:08.024+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: index_bids_subjects.index_subjects manual__2025-07-27T19:16:06.854282+00:00 [queued]>
+[2025-07-27T19:16:08.025+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-27T19:16:08.038+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): index_subjects> on 2025-07-27 19:16:06.854282+00:00
+[2025-07-27T19:16:08.046+0000] {standard_task_runner.py:60} INFO - Started process 65 to run task
+[2025-07-27T19:16:08.049+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'index_bids_subjects', 'index_subjects', 'manual__2025-07-27T19:16:06.854282+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/subject_index_dag.py', '--cfg-path', '/tmp/tmpawt9w01j']
+[2025-07-27T19:16:08.051+0000] {standard_task_runner.py:88} INFO - Job 6: Subtask index_subjects
+[2025-07-27T19:16:08.064+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2025-07-27T19:16:08.092+0000] {task_command.py:423} INFO - Running <TaskInstance: index_bids_subjects.index_subjects manual__2025-07-27T19:16:06.854282+00:00 [running]> on host 6b8fcca183c1
+[2025-07-27T19:16:08.164+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='index_bids_subjects' AIRFLOW_CTX_TASK_ID='index_subjects' AIRFLOW_CTX_EXECUTION_DATE='2025-07-27T19:16:06.854282+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-27T19:16:06.854282+00:00'
+[2025-07-27T19:16:19.097+0000] {_transport.py:335} INFO - HEAD http://elasticsearch:9200/ [status:200 duration:0.003s]
+[2025-07-27T19:16:19.100+0000] {_transport.py:335} INFO - HEAD http://elasticsearch:9200/subject_v2 [status:200 duration:0.002s]
+[2025-07-27T19:16:19.133+0000] {_transport.py:335} INFO - DELETE http://elasticsearch:9200/subject_v2 [status:200 duration:0.033s]
+[2025-07-27T19:16:19.259+0000] {_transport.py:335} INFO - PUT http://elasticsearch:9200/subject_v2 [status:200 duration:0.124s]
+[2025-07-27T19:16:19.310+0000] {_transport.py:335} INFO - PUT http://elasticsearch:9200/_bulk [status:200 duration:0.050s]
+[2025-07-27T19:16:19.312+0000] {logging_mixin.py:188} INFO - 29 documents indexed into subject_v2.
+[2025-07-27T19:16:19.312+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-27T19:16:19.323+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=index_bids_subjects, task_id=index_subjects, execution_date=20250727T191606, start_date=20250727T191608, end_date=20250727T191619
+[2025-07-27T19:16:19.388+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-27T19:16:19.402+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

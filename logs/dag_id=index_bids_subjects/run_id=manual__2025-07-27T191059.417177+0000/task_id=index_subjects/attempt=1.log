@@ -1,0 +1,38 @@
+[2025-07-27T19:11:02.340+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: index_bids_subjects.index_subjects manual__2025-07-27T19:10:59.417177+00:00 [queued]>
+[2025-07-27T19:11:02.348+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: index_bids_subjects.index_subjects manual__2025-07-27T19:10:59.417177+00:00 [queued]>
+[2025-07-27T19:11:02.349+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-27T19:11:02.360+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): index_subjects> on 2025-07-27 19:10:59.417177+00:00
+[2025-07-27T19:11:02.367+0000] {standard_task_runner.py:60} INFO - Started process 56 to run task
+[2025-07-27T19:11:02.370+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'index_bids_subjects', 'index_subjects', 'manual__2025-07-27T19:10:59.417177+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/subject_index_dag.py', '--cfg-path', '/tmp/tmperdkru3x']
+[2025-07-27T19:11:02.373+0000] {standard_task_runner.py:88} INFO - Job 2: Subtask index_subjects
+[2025-07-27T19:11:02.391+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2025-07-27T19:11:02.420+0000] {task_command.py:423} INFO - Running <TaskInstance: index_bids_subjects.index_subjects manual__2025-07-27T19:10:59.417177+00:00 [running]> on host 6b8fcca183c1
+[2025-07-27T19:11:02.491+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='index_bids_subjects' AIRFLOW_CTX_TASK_ID='index_subjects' AIRFLOW_CTX_EXECUTION_DATE='2025-07-27T19:10:59.417177+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-27T19:10:59.417177+00:00'
+[2025-07-27T19:11:15.318+0000] {_transport.py:335} INFO - HEAD http://elasticsearch:9200/ [status:200 duration:0.004s]
+[2025-07-27T19:11:15.321+0000] {_transport.py:335} INFO - HEAD http://elasticsearch:9200/subject_v2 [status:404 duration:0.002s]
+[2025-07-27T19:11:15.355+0000] {_transport.py:335} INFO - PUT http://elasticsearch:9200/subject_v2 [status:400 duration:0.033s]
+[2025-07-27T19:11:15.356+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/subject_index_dag.py", line 70, in index_subjects_to_elasticsearch
+    es.indices.create(index=index_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/elasticsearch/_sync/client/utils.py", line 402, in wrapped
+    return api(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/elasticsearch/_sync/client/indices.py", line 493, in create
+    return self.perform_request(  # type: ignore[return-value]
+  File "/home/airflow/.local/lib/python3.8/site-packages/elasticsearch/_sync/client/_base.py", line 389, in perform_request
+    return self._client.perform_request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/elasticsearch/_sync/client/_base.py", line 320, in perform_request
+    raise HTTP_EXCEPTIONS.get(meta.status, ApiError)(
+elasticsearch.BadRequestError: BadRequestError(400, 'resource_already_exists_exception', 'index [subject_v2/iW3D70vpS4SDRgOb-KANHA] already exists')
+[2025-07-27T19:11:15.367+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=index_bids_subjects, task_id=index_subjects, execution_date=20250727T191059, start_date=20250727T191102, end_date=20250727T191115
+[2025-07-27T19:11:15.379+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 2 for task index_subjects (BadRequestError(400, 'resource_already_exists_exception', 'index [subject_v2/iW3D70vpS4SDRgOb-KANHA] already exists'); 56)
+[2025-07-27T19:11:15.437+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-27T19:11:15.451+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

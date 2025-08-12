@@ -12,7 +12,6 @@ actions = []
 index_name = "file_6040"
 
 files = layout.get()
-print(len(files))
 df = layout.to_df()
 df = df[~df['path'].str.contains(r'\.git', case=False, regex=True)]
 
@@ -25,8 +24,6 @@ for _, row in df.iterrows():
         doc['filesize'] = file_size
     except OSError:
         doc['filesize'] = None 
-    
-    print(doc)
 
     action = {
         "_index": index_name,
@@ -34,16 +31,15 @@ for _, row in df.iterrows():
     }
     actions.append(action)
 
-# ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-# Elasticsearch connection with authentication
+# Elasticsearch connection 
 es = Elasticsearch(
     hosts=[{
         'host': 'localhost',
         'port': 9200,
         'scheme': 'http'
     }],
-    basic_auth=('elastic', 'changeme')  # user: elastic, pass: changeme
+    basic_auth=('elastic', 'changeme')  
 )
 
 # Check connection
@@ -53,13 +49,12 @@ if not es.ping():
 else:
     print("Elasticsearch connected successfully.")
 
-# Optional: Delete index if exists (for clean run)
+# Delete index if exists 
 if es.indices.exists(index=index_name):
     es.indices.delete(index=index_name)
     print(f"index {index_name} removed.")
 
-# Create index (optional settings/mappings can be added)
-es.indices.create(index=index_name)
+# Create index
 print(f"index {index_name} created.")
 
 # Bulk insert into Elasticsearch

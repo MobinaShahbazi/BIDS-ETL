@@ -13,7 +13,7 @@ default_args = {
     'start_date': datetime(2023, 1, 1),
 }
 
-def upload_to_elasticsearch():
+def load_subjects_to_elasticsearch():
     
     dataset_dir = "/opt/airflow/bids-data"
     tsv_path = os.path.join(dataset_dir, "Demographic_Information.tsv")
@@ -54,7 +54,6 @@ def upload_to_elasticsearch():
         }
         actions.append(action)
 
-    # اتصال به Elasticsearch
     es = Elasticsearch(
         hosts=[{
             'host': 'elasticsearch',
@@ -68,7 +67,6 @@ def upload_to_elasticsearch():
     if not es.ping():
         raise Exception("Elasticsearch connection failed.")
 
-    # حذف ایندکس در صورت وجود
     if es.indices.exists(index=index_name):
         es.indices.delete(index=index_name)
 
@@ -85,8 +83,8 @@ with DAG(
 ) as dag:
 
     upload_task = PythonOperator(
-        task_id="upload_bids_data_to_es",
-        python_callable=upload_to_elasticsearch,
+        task_id="load_bids_sub_to_es",
+        python_callable=load_subjects_to_elasticsearch,
     )
 
     upload_task
